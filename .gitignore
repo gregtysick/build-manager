@@ -1,0 +1,24 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+
+# Local runtime / sensitive artifacts
+.env
+.env.*
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Node
+node_modules/
+
+# Build output
+.dist/
+dist/
