@@ -2,44 +2,54 @@
 
 Build Manager is a skill-first OpenClaw workflow for turning rough project ideas into realistic, structured, reviewable execution.
 
-It is designed to do more than take instructions and produce output.
-It adds a consultant layer before and during execution by helping:
+It is not meant to be just a task tracker and not meant to be a blind automation wrapper.
+The goal is to add a practical consultant layer before and during execution.
+
+## What it does
+Build Manager helps:
 - catch likely break points early
 - spot design mistakes before they harden
 - pressure-test scope and expectations
-- absorb outside inspiration and use it intelligently
-- mentally walk through the final app or workflow to improve the end result
+- use outside inspiration before execution becomes rigid
+- walk through the likely end result before too much is built
+- keep review checkpoints and approvals visible
 
-## What it combines
-- a local database-backed source of truth
-- a dashboard as the main human operational view
+## System shape
+The current working system combines:
+- a local SQLite-backed source of truth
 - chat as the control surface
-- curation as a preserved output layer
+- a human-facing dashboard
+- Obsidian as the preserved context and curation layer
 
 ## Current scope
-Build Manager is currently aimed at OpenClaw development-scope work, including:
+Right now Build Manager is aimed at OpenClaw development work, including:
 - skills
 - agents
 - workflows
 - tooling
 - architecture and system work
 
-## Lifecycle
-The current working lifecycle is:
+## Working lifecycle
+`Inbox -> Capture -> Evaluation -> Design -> Plan -> Build -> Support -> Documentation / Content / GitHub`
 
-`Inbox -> Capture -> Evaluation -> Design -> Plan -> Build -> Support -> Documentation / Content / GitHub Management`
+## Why it exists
+Many project systems start after someone has already decided what to build.
+Build Manager starts earlier.
 
-## Positioning
-Most project systems begin after someone has already decided what to build.
-Build Manager begins earlier.
+Its job is to improve the quality of decisions, execution, and preserved output so work becomes more realistic, more reviewable, and more reusable.
 
-It helps define the real outcome, pressure-test the plan, improve execution quality, and preserve the result as something reusable rather than a pile of disconnected tasks.
+## Repository status
+This repo is an early public packaging layer for a real in-progress system.
+It is meant to document the direction clearly while the underlying workflow continues to tighten.
 
-## Current status
-This repository is being started as the first documentation and credibility-facing package for the skill.
-The fuller future agent direction is being held separately under the later **Build Factory** project.
+The broader future agent direction is being held separately under the later **Build Factory** project.
 
-## Repository intent
-This repo is being built first as a professional, credibility-facing record of real work.
-The priority is not flashy complexity.
-The priority is clarity, thoughtfulness, real engineering progress, and a clean public story.
+## In this repo
+- `docs/CURRENT_STATUS.md` for current implementation posture
+- `docs/POSITIONING.md` for the product framing
+- `docs/REPO_STRATEGY.md` for repo-purpose and publication intent
+- `skill/README.md` for the skill-facing slice of the work
+
+## Repo intent
+This repository is being shaped as a credibility-first record of thoughtful, real engineering work.
+The priority is clarity, good judgment, and steady system design, not flashy complexity.
