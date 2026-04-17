@@ -48,7 +48,34 @@ The broader future agent direction is being held separately under the later **Bu
 - `docs/CURRENT_STATUS.md` for current implementation posture
 - `docs/POSITIONING.md` for the product framing
 - `docs/REPO_STRATEGY.md` for repo-purpose and publication intent
+- `docs/INSTALLATION_AND_PACKAGING.md` for cloning, runtime-data, and distribution guidance
 - `skill/README.md` for the skill-facing slice of the work
+
+## How other people should use this
+The intended public model is:
+- clone or fork the repo for documentation, packaging, and future install scripts
+- install the skill package, not Greg's personal runtime state
+- create a fresh local workspace and database per installation
+- keep operator data local and mutable, not committed into the repo
+
+## Does the database get included
+Not as the default live database.
+
+The current direction is:
+- the repo can include schema, migrations, and bootstrap scripts
+- each installation should create its own fresh SQLite database locally
+- optional demo or seed data can be offered separately, but should not be the default operator database
+- Greg's working database and Obsidian project material should stay out of the public package
+
+## ClawHub direction
+ClawHub should package the skill definition and installation boundary.
+It should not package a shared mutable live database.
+
+The clean model is:
+- skill files ship through the repo and later ClawHub
+- install flow creates the local runtime workspace
+- first run initializes a new local database for that user
+- local dashboards, notes, and runtime state belong to that installation
 
 ## Repo intent
 This repository is being shaped as a credibility-first record of thoughtful, real engineering work.
