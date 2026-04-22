@@ -67,6 +67,12 @@ Its job is to improve the quality of decisions, execution, and preserved output 
 This repo is an early tracked packaging layer for a real in-progress system.
 It is meant to document the direction clearly while the underlying workflow continues to tighten.
 
+What it reflects right now:
+- the four-layer boundary between curation, live install, local repo, and GitHub remote
+- the current Build Manager naming and scope
+- the current one-orchestrator workflow direction
+- a documentation-first packaging posture rather than a runtime dump
+
 The broader future agent direction is being held separately under the later **Build Factory** project.
 
 ## In this repo
