@@ -23,6 +23,9 @@ Build Manager is intended to add that missing layer by:
 Build Manager currently behaves more like a consultant-guided workflow system than a fully autonomous agent.
 That is intentional for the current stage.
 
+It is also intentionally staying as one top-level orchestrator while the internal workflow split is clarified.
+Current internal workflows being shaped are capture, design, planning, content generation, GitHub content, and publishing.
+
 ## Future relationship to Build Factory
 Build Manager is the skill-first system.
 Build Factory is the later fuller agent direction.
