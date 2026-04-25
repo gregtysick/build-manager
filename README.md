@@ -33,6 +33,21 @@ The current working system is intentionally split into four layers:
 - GitHub remote is downstream of the local repo working tree
 - intended publish flow is draft -> repo -> commit/push
 
+## Working-product status
+Yes — Build Manager is now a working internal product.
+
+What that means:
+- the staged lifecycle is real in the runtime, not just documented
+- planning can hand off into real build tasks
+- build tasks can carry dependencies, subtasks, and explicit review checkpoints
+- completed build work can now transition into support
+
+What that does **not** mean yet:
+- public packaging is finished
+- install flow is fully polished
+- documentation is complete
+- the dashboard/read model is done evolving
+
 ## Current scope
 Right now Build Manager is aimed at OpenClaw development work, including:
 - skills
@@ -80,6 +95,7 @@ The broader future agent direction is being held separately under the later **Bu
 - `docs/POSITIONING.md` for the product framing
 - `docs/WORKFLOW_MODEL.md` for the workflow split and current orchestrator direction
 - `docs/INSTALLATION_AND_PACKAGING.md` for cloning, runtime-data, and distribution guidance
+- `docs/HOW_IT_WORKS.md` for a plain-language under-the-hood explanation
 - `skill/README.md` for the skill-facing slice of the work
 
 ## How other people should use this
