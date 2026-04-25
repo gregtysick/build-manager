@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "name": "OpenClaw Development Build Manager",
+  "scope": "openclaw-development",
+  "owner_agent": "system_engineer",
+  "database": {
+    "path": "../data/build_manager.db"
+  },
+  "statuses": {
+    "task": [
+      "captured",
+      "active",
+      "queued",
+      "waiting",
+      "parked",
+      "done",
+      "archived"
+    ],
+    "project": [
+      "captured",
+      "active",
+      "queued",
+      "waiting",
+      "parked",
+      "done",
+      "archived"
+    ]
+  },
+  "views": {
+    "current": "active",
+    "next_up": "queued",
+    "waiting": "waiting",
+    "parked": "parked",
+    "captured": "captured",
+    "done": "done"
+  },
+  "time_tracking": {
+    "enabled": true,
+    "scheduled_session_defaults_to_planned_minutes": true,
+    "allow_end_of_session_confirmation": true
+  },
+  "autonomy": {
+    "allow_agent_runnable_tasks": true,
+    "require_explicit_user_direction_for_unbounded_work": true
+  }
+}

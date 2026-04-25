@@ -79,14 +79,15 @@ Build Manager starts earlier.
 Its job is to improve the quality of decisions, execution, and preserved output so work becomes more realistic, more reviewable, and more reusable.
 
 ## Repository status
-This repo is an early tracked packaging layer for a real in-progress system.
-It is meant to document the direction clearly while the underlying workflow continues to tighten.
+This repo is the human-inspectable GitHub mirror for Build Manager.
+It is intentionally a publishable copy of the skill and runtime code, not Greg's live working install.
 
 What it reflects right now:
 - the four-layer boundary between curation, live install, local repo, and GitHub remote
 - the current Build Manager naming and scope
 - the current one-orchestrator workflow direction
-- a documentation-first packaging posture rather than a runtime dump
+- a mirrored copy of the publishable skill/runtime code
+- explicit separation between repo code and Greg's live mutable runtime state
 
 The broader future agent direction is being held separately under the later **Build Factory** project.
 
@@ -96,7 +97,12 @@ The broader future agent direction is being held separately under the later **Bu
 - `docs/WORKFLOW_MODEL.md` for the workflow split and current orchestrator direction
 - `docs/INSTALLATION_AND_PACKAGING.md` for cloning, runtime-data, and distribution guidance
 - `docs/HOW_IT_WORKS.md` for a plain-language under-the-hood explanation
-- `skill/README.md` for the skill-facing slice of the work
+- `skill/` for the mirrored skill package content
+- `scripts/` for the mirrored runtime command and dashboard scripts
+- `workflows/` for workflow runtime logic
+- `sql/` for initialization and migration SQL
+- `config/build_manager.example.json` for a publishable config example
+- `runtime/README.md` for the live-runtime boundary explanation
 
 ## How other people should use this
 The intended public model is:

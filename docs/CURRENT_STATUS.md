@@ -22,6 +22,7 @@ What has recently been clarified:
 - the curation package is being cleaned up into canonical notes, logs, and archive buckets
 - the active skill/repo name is now consistently **Build Manager**
 - the workflow model is being tightened around one orchestrator with separate internal workflows
+- the repo is allowed to mirror publishable code for GitHub/portfolio inspection even though the live install continues to run separately
 
 What is still being tightened:
 - dashboard polish

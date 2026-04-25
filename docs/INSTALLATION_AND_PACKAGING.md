@@ -45,7 +45,8 @@ They should not receive Greg's live working database or live operator runtime as
 
 ## What belongs in the repo
 The repo can include:
-- skill instructions
+- a mirrored copy of the publishable skill package
+- a mirrored copy of the publishable runtime code
 - install/setup guidance
 - schema or migrations
 - bootstrap scripts
@@ -86,11 +87,12 @@ It should not be treated as a distributor for a shared mutable operator database
 - GitHub utility behavior should remain execution/mechanics rather than narrative ownership
 
 ## Honest current status
-The current public repo is earlier than a polished one-command installer.
+The current public repo is now more than docs, but it is still earlier than a polished one-command installer.
 
 Right now it is:
-- a documentation-first tracked packaging layer
+- a tracked publish tree with mirrored skill/runtime code
 - a credibility-facing repo for the current skill direction
+- intentionally separate from Greg's live database and mutable runtime state
 - not yet a finished turnkey public installer
 
 ## Recommended next packaging steps

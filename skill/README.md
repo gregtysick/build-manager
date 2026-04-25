@@ -25,5 +25,10 @@ The clean install model is:
 4. optionally add sample/demo seed data
 
 ## Current status
-This folder is still early.
-The repository is documentation-first right now so the public packaging boundary can be clarified before the full install surface is published.
+This folder now contains the mirrored skill package material for the repo/GitHub side.
+
+It is still not Greg's live runtime.
+The intent is:
+- repo/GitHub shows a clean inspectable package
+- the live install continues to run separately
+- changes can later be promoted deliberately between the two when appropriate
