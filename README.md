@@ -1,18 +1,26 @@
 # Build Manager
 
-Build Manager is a skill-first OpenClaw workflow for turning rough project ideas into realistic, structured, reviewable execution.
+Build Manager is a prompt-driven dashboard for staged, reviewable software delivery.
 
-It is not meant to be just a task tracker and not meant to be a blind automation wrapper.
-The goal is to add a practical consultant layer before and during execution.
+Instead of pushing everything through button-heavy project screens, it lets work move through guided prompts, clear stages, and explicit review points.
+
+It is meant for shaping rough ideas into realistic execution before too much time gets spent building the wrong thing.
+
+## Why it is different
+Most project tools start too late.
+They assume the work is already clear.
+
+Build Manager starts earlier.
+It helps capture rough ideas, pressure-test them, define the outcome, and only then push them into real build execution.
 
 ## What it does
 Build Manager helps:
-- catch likely break points early
-- spot design mistakes before they harden
-- pressure-test scope and expectations
-- use outside inspiration before execution becomes rigid
-- walk through the likely end result before too much is built
-- keep review checkpoints and approvals visible
+- capture rough ideas before they get over-structured
+- collect inspiration, references, and useful context in one place
+- clarify what should actually be built before execution hardens
+- turn planning into real tracked build work
+- keep review checkpoints visible during execution
+- move finished build work into support instead of leaving it as a dead task list
 
 ## Four-layer architecture
 The current working system is intentionally split into four layers:
