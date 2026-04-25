@@ -388,8 +388,11 @@ Notes:
 
 ## GitHub repo management rule
 For projects meant to be public, professional, or publishable:
+- first consult `/mnt/d/Dropbox/Obsidian/OpenClaw/Governance/Governance_Openclaw/GOVERNANCE_GITHUB.md`
+- treat that governance document as the global rule set across Build Manager projects
 - Build Manager should prepare GitHub-ready content as a cross-cutting workflow during Design, Planning, Build, or Support when useful
 - the draft content should live in the project's `curation/` area as a reusable reservoir
+- project GitHub notes are project-specific working material, not the global rule source
 - `curation/github/` is draft/source material only
 - the real tracked publish tree belongs in `repo/`
 - before any commit, push, or publish step, stop and ask Greg to review the exact `repo/` working-tree contents because that folder is what will actually go up to GitHub
